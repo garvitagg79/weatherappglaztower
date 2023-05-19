@@ -24,14 +24,14 @@ API_KEY=your-api-key
 Start the development server:
 # npm start
 
-#Usage
+# Usage
 Enter a city name or ZIP code in the search input field.
 Click on the "Get Weather" button or press Enter.
 The application will fetch and display the current weather data for the provided location.
 The temperature and humidity will be displayed as circular progress bars.
 Additional weather data such as wind speed and pressure will be shown below.
 
-#Technologies Used
+# Technologies Used
 React
 Axios
 React Autosuggest
