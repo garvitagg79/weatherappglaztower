@@ -1,0 +1,111 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1eded;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    /* Add margin bottom */
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    /* Increase margin bottom */
+}
+
+.suggestions-container {
+    position: relative;
+    width: 100%;
+}
+
+.suggestions-container ul {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.suggestions-container li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestions-container li:hover {
+    background-color: #f2f2f2;
+}
+
+.text-red-500 {
+    color: #f56565;
+    margin-bottom: 1rem;
+}
+
+/* Add styles for the fixed button */
+.fixed-button {
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 200px;
+    background-color: #1a202c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.75rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.fixed-button:hover {
+    background-color: #718096;
+}
+
+.circular-bars-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.circular-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 40px;
+    width: 150px;
+}
+
+.bar-label {
+    margin-top: 10px;
+}
+
+.additional-data-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.additional-data-item {
+    text-align: center;
+    width: 150px;
+}
